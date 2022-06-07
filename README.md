@@ -1,5 +1,5 @@
 ## Geospatial Analysis Pipeline Using NYC Taxi Dataset
-- This repo showcases the power of [Great Expectations] for Data Quality and [Apache Sedona] for Geospatial Analysis on Big Data.
+- This repo showcases the power of [Great Expectations](https://greatexpectations.io) for Data Quality and [Apache Sedona](https://sedona.apache.org/) for Geospatial Analysis on Big Data.
 - The goal is to run data quality check on the public NYC Taxi Dataset, if all checks passes, we could run a Spark Job for ETL processing.
 
 After cloning the repo please run this command to download the necessary data for the pipeline
