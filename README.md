@@ -16,7 +16,7 @@ Go to localhost:8080 to explore and trigger the pipeline
 
 ## Validation
 
-**Validation task** will automatically generate documentation about the data against your **expectations suite** . **Expectation suite json file** is stored in (_great_expectations/expectations/my_expectation.json_). Airflow's [GreatExpectationsOperator](https://registry.astronomer.io/providers/great-expectations/modules/greatexpectationsoperator) 
+**Validation Task** will automatically generate documentation about the data against your **expectations suite** . **Expectation suite json file** is stored in (_great_expectations/expectations/my_expectation.json_). Airflow's [GreatExpectationsOperator](https://registry.astronomer.io/providers/great-expectations/modules/greatexpectationsoperator) 
 will do the heavy-lifting of orchestrating data quality check and generating expectations docs.
 Please consult the official [docs](https://greatexpectations.io/expectations) if you want to add more expectations.
 
@@ -24,7 +24,7 @@ Once done, you can find your data profiling docs at (_great_expectations/uncommi
 
 ![image](https://user-images.githubusercontent.com/59940078/172497883-11d752d0-e6a3-4b57-9d10-45a23eeb96b3.png)
 
-## Spark Jobs
+## Spark Job
 
 **Spark Job Task** will transform the data (include some data cleaning). Add a column (BooleanType) to the dataset that indicates whether the trip would go to JFK Airport or not. Finally, output data would be in Parquet files (PARTITION by Day)
 
