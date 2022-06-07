@@ -1,0 +1,8 @@
+
+data/*.csv
+great_expectations/uncommited/
+taxi_data/
+output/taxi_data
+dags/__pycache__/
+.idea/
+dags/.idea/

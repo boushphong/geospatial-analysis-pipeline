@@ -1,0 +1,17 @@
+version: '2.1'
+
+services:
+  airflow:
+    build: './'
+    container_name: some_airflow_orchestrator
+    network_mode: "host"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags/
+      - ./logs:/opt/airflow/logs/
+      - ./jars:/opt/airflow/jars/
+      - ./great_expectations:/opt/airflow/great_expectations/
+      - ./data:/opt/airflow/data/
+      - ./spark-submit-jobs:/opt/airflow/spark-submit-jobs/
+      - ./output:/opt/airflow/output/

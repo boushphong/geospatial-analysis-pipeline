@@ -1,0 +1,58 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "my_expectation",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "vendor_name",
+        "value_set": [
+          "CMT",
+          "DDS",
+          "VTS"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "End_Lat",
+        "max_value": 90,
+        "min_value": -90
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "End_Lon",
+        "max_value": 180,
+        "min_value": -180
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "Start_Lat",
+        "max_value": 90,
+        "min_value": -90
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "Start_Lon",
+        "max_value": 180,
+        "min_value": -180
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.7"
+  }
+}
