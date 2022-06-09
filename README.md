@@ -10,7 +10,7 @@ Run Airflow image (with Spark pre-installed) (please use Docker Compose V2)
 
 `docker compose up`
 
-Go to localhost:8080 to explore and trigger the pipeline
+Go to localhost:8080 (user/password: admin) to explore and trigger the pipeline
 
 ![image](https://user-images.githubusercontent.com/59940078/172496772-5ed8ec95-8ac2-4966-8913-5897855a7dcd.png)
 
