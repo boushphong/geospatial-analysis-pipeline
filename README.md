@@ -20,7 +20,7 @@ Go to localhost:8080 (user/password: admin) to explore and trigger the pipeline
 will do the heavy-lifting of orchestrating data quality check and generating expectations docs.
 Please consult the official [docs](https://greatexpectations.io/expectations) if you want to add more expectations.
 
-Once done, you can find your data profiling docs at (_great_expectations/uncommitted/data_docs/local_site/index.html_). In a real production environment, you would upload this file into an Object Storage (s3, gcs ..)
+Once done, you can find your data profiling docs at (_great_expectations/uncommitted/data_docs/local_site/index.html_). In a real production environment, you would upload the content in the uncommitted folder into an Object Storage (s3, gcs ..). You could serve this file with a web-browser.
 
 ![image](https://user-images.githubusercontent.com/59940078/172497883-11d752d0-e6a3-4b57-9d10-45a23eeb96b3.png)
 
